@@ -133,11 +133,9 @@ nav p:hover, .footer-flex:hover {
     background-color: #3ca9cd;
 }
 
-/* .footer-flex:hover {
-    footer li:not(:last-of-type) {
-            border-bottom: dashed 1px #424545;
+.footer-flex:hover li:not(:last-of-type) {
+    border-bottom: dashed 1px #ffffff;
 }
-} */
 
 h1 a, main aside h3, footer h3 {
     color: #ffffff;
