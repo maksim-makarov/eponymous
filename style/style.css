@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/shadow.png),url(../images/bg.jpg);
+    background-repeat: repeat-x,repeat;
+    background-color: grey;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+p,li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,nav p {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-size: 44px;
+    letter-spacing: -1px;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.header-flex, nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header-flex {
+    margin:  0 30px ;
+}
+
+nav {
+    min-width: 65%;
+    color: #d9dada;
+}
+
+nav p:hover {
+    color: #ffffff;
+}
+
+nav p {
+    font-size: larger;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    width: 5em;
+}
+
+main p, footer p {
+    line-height: 1.5em;
+}
+
+.big-picture img {
+    display: block;
+    border: solid 30px white;
+}
+
+main,.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+aside {
+    width: 25%;
+}
+
+.aside-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main li, footer li {
+    height: 40px;
+    line-height: 40px;
+}
+
+main li:not(:last-of-type), footer li:not(:last-of-type) {
+    border-bottom: dashed 1px #424545;
+}
+
+article {
+    width: 75%;
+}
+
+main article {
+        background-color: white;
+}
+
+.article-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.article-flex {
+    display: flex;
+    align-items: start;
+}
+
+article img {
+    margin-right: 20px;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+footer>p {
+    text-align: center;
+}
+
+nav p:hover, .footer-flex:hover {
+    background-color: #3ca9cd;
+}
+
+/* .footer-flex:hover {
+    footer li:not(:last-of-type) {
+            border-bottom: dashed 1px #424545;
+}
+} */
+
+h1 a, main aside h3, footer h3 {
+    color: #ffffff;
+}
+
+h2, main article h3 {
+    color: #141414;
+}
+
+main aside p,footer>p,footer>p a {
+    color: #959797;
+}
+
+main aside a {
+    color: #d9dada;
+}
+
+main article p {
+    color: #6b6b6b;
+}
+
+main article p a {
+    color: #262626;
+}
+
+main article a {
+    color: #262626;
+}
+
+footer aside a {
+    color: #e2f2f8;
+}
+
+footer article p {
+    color: #addbea;
+}
